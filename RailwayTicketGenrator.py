@@ -15,7 +15,7 @@ class formDetials:
     
     @staticmethod
     def Railname():
-        print("Mh_ExP")
+        print("Train Name: Mh_ExP")
     
 ps1=formDetials(120,"Kunal","sl01","12-3 pm")
 ps1.Railname()
