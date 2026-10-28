@@ -1,0 +1,33 @@
+# Banking Fraud & Loan Default Risk Engine
+
+A zero-dependency financial risk engine built from scratch in pure Python
+(csv, statistics, random). It scores loan default risk and flags
+suspicious transaction patterns.
+
+## What it does
+- Generates 1,000 synthetic applicant records that model consumer credit
+  profiles and transaction behavior
+- Scores each applicant with a weighted credit scorecard to assess
+  loan default risk
+- Detects fraud patterns with heuristic anomaly detection
+- Produces portfolio statistics such as income averages and risk counts
+
+## Tech
+Python 3, standard library only: csv, statistics, random. No external
+packages are needed.
+
+## How to run
+python main.py
+
+## Sample output
+Total Applicants Processed: 1000
+High Default Risk Flagged: 288
+Detected Fraud Patterns: 35
+Average Annual Income: $89,508.77
+Median Annual Income: $91,196.00
+
+## Note
+All data is randomly generated and does not represent real customers.
+
+## Author
+Kunal Ingale | linkedin.com/in/kunal-ingale-68894a2b0
